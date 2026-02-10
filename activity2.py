@@ -8,7 +8,7 @@ for i in range(2):
             relief = tk.RAISED,
             bd = 5)
         frame.grid(row = i, column = j, padx = 5, pady = 5)
-        label = tk.Label(master=frame, text="◼️")
+        label = tk.Label(master=frame, text=f"Row no.{i} \nColumn no.{j}")
         label.pack()
 
 window.mainloop()
